@@ -1,0 +1,145 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*Heading*/
+
+.big-heading{
+     line-height: 1.5;
+    font-size: 3rem;
+    color: white;
+}
+
+/*containers*/
+
+.container-fluid{
+    padding: 5% 10% 25% 5%;
+    
+}
+
+/*sections*/
+
+.colored-section{
+     background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+     background-color: #fff;
+}
+
+/*navigation-bar*/
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "cursive";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+    
+}
+
+#features{
+    padding: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+p{
+    color: grey;
+}
+
+.icon{
+    color: #ef1872;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.corgi{
+    padding-bottom: 1rem;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+}
+
+.carousel-item{
+     padding: 7% 22%;
+}
+
+#press{
+    padding: 3% 7%;
+    text-align: right;
+}
+
+.press-logo{
+    width: 10%;
+    margin:3px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.col-price{
+    padding: 3% 4%;
+}
+
+#cta{
+
+    padding: 7% 15%;
+}
+
+.downloadbtn{
+    margin: 5px 10px;
+    
+}
+
+@media (max-width:993px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        margin-top: 20px;
+        position: static;
+        transform: rotate(0);
+    }
+
+/*    footer section*/
+    #footer{
+        padding: 7% 15%;
+    }
+    .social-icon{
+        margin: 20px 10%;
+    }
